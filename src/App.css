@@ -7,3 +7,14 @@ body{
 
   border: 2px;
 }
+.Card{
+  background-color: rgb(30, 30, 199);
+}
+
+.registro{
+  width: 400px;
+}
+.carousel{
+  width: 1000px;
+  
+}
