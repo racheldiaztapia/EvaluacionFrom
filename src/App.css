@@ -1,6 +1,16 @@
 body{
   background-color: rgb(238, 244, 245) !important;
+  position: relative;
 
+}
+#navbar{
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  left: 0;
+}
+*{
+  font-family: 'Pathway Extreme', sans-serif;
 }
 
 .Aplicacion{
@@ -10,6 +20,10 @@ body{
 
 .registro{
   width: 400px;
+  background-color: rgb(120, 128, 233);
+  padding: 15px;
+  border: 5px solid rgba(0, 0, 0, 0.268);
+  
 }
 .carousel{
   width: 900px;
@@ -19,5 +33,10 @@ body{
 .card{
   width: 500px;
   
+  
+}
+.card-text{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: aquamarine;
   
 }

@@ -23,7 +23,7 @@ const navbar = () => {
               <Link to="contacto" className='nav-link'><button>Informacion</button></Link><br/>
             </li>
             <li className="nav-item">
-              <Link to="descrip" className='nav-link'><button color='bleu'> reguistarse</button></Link>
+              <Link to="descrip" className='nav-link'><button> Registarse</button></Link>
             </li>
          </ul>
        </div>
