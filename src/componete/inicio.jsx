@@ -4,18 +4,26 @@ import { Link } from "react-router-dom";
 const inicio = () => {
   return (
       <div>
-          <h1>Tu mejor eleccion de un buen viaje</h1><br/>
           <center>
+            <h1>Tu mejor eleccion de un buen viaje</h1><br/>
             <div id="carouselExample" className="carousel slide">
               <div className="carousel-inner">
                   <div className="carousel-item active">
-                     <img src="./viaje1.png" className="d-block w-100" alt="..."/>
+                     <img src="./img3.png" className="d-block w-100" alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src="./viaje2.png" className="d-block w-100" alt="..."/>
+                    <img src="./img1.png" className="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                       <h5>San Pedro de Atacama</h5>
+                        <p>Las maravillas del Decierto.</p>
+                    </div>
+                     
                   </div>
                   <div className="carousel-item">
-                    <img src="./viaje3.png" className="d-block w-100" alt="..."/>
+                    <img src="./img2.png" className="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                       <h5>Parque Nacional Torres del Paine</h5>
+                    </div>
                   </div>
                </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

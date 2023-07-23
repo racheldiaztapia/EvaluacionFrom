@@ -10,15 +10,21 @@ const descrip = () => {
 
            <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Nombre  Apellido:</label>
-              <input type="text" class="form-control" id="nomUser" />
+              <input type="text" class="form-control" id="nombre" />
            </div>
            <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Email :</label>
               <input type="text"  class="form-control" id="staticEmail2" />
            </div>
            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Region:</label>
-              <input type="password" class="form-control" id="region"/>
+              <label for="exampleFormControlInput1" class="form-label">Edad:</label>
+              
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>seleccione su Edad</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
               
             
            
@@ -31,7 +37,7 @@ const descrip = () => {
            
           
          <div class="mb-3">
-             <button type="submit" class="btn btn-primary mb-3">Reguistar</button>
+             <button type="submit" class="btn btn-primary mb-3">Registare</button>
          </div>
        </form>
      </center>
