@@ -4,6 +4,8 @@ const descrip = () => {
   return (
     <div>
       <center>
+        <h1>Necesitas de Ayudantia Espititual </h1><br/>
+
       
        <form class="registro">
             <h1>Registre aqui </h1>

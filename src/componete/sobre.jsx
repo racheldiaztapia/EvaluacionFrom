@@ -4,33 +4,70 @@ import { Link } from "react-router-dom";
 const sobre = () => {
   return (
     <div>
-      <center>
-       <h2>Lugares Maravillosos </h2><br/>
-       <div className="card">
-         <img src="./imgcad1.png" className="card-img-top" alt="..."/>
-         <div className="card-body"> 
-           <h5 className="card-title">San Pedro de Atacama</h5>
-           <p className="card-text">el Salar de Uyuni, el salar más grande del mundo,no son tantos los que saben que esa ruta por el altiplano boliviano está repleta de atractivos únicos, maravillas </p>
-           <a href="#" className="btn btn-primary">Optener mas informacion</a>
-         </div>
-       </div><br/>
-       <div className="card">
-         <img src="./imgcad2.png" className="card-img-top" alt="..."/>
-         <div className="card-body"> 
-           <h5 className="card-title">Parque Nacional Torres del Paine</h5>
-           <p className="card-text">En el sur de Chile, este espacio protegido es un destino soñado por los amantes de la naturaleza, que encuentran en esta tierra virgen alguno de los mejores senderos del mundo. Además es uno de los parques nacionales mejor preparados para una visita confortable y segura para todos los viajeros.</p>
-           <a href="#" className="btn btn-primary">Optener mas informacion</a>
-         </div>
-       </div><br/>
-       <div className="card">
-         <img src="./imgcad3.png" className="card-img-top" alt="..."/>
-         <div className="card-body"> 
-           <h5 className="card-title">Isla de Pascua</h5>
-           <p className="card-text">Comencemos por uno de los encantos y particularidades más grandes de Chile. La Isla de Pascua, denominado el segundo territorio poblado más distante en el mundo, estando ubicado en el océano Pacifico, por lo que se considera parte del continente Oceanía a pesar de ser territorio chileno. </p>
-           <a href="#" className="btn btn-primary">Optener mas informacion</a>
-         </div>
-       </div>
-      </center>
+     <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+        <div class="col">
+          <div class="card">
+            <img src="./imgcar1.png" class="card-img-top" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">El Amor de Dios</h5>
+              <p class="card-text">Dios es nuestro amparo y fortaleza.</p>
+              
+            </div>
+            <center>
+              <div className="mb-3">
+                <button type="submit" className="btn btn-primary mb-3">Mas Informacion</button>
+              </div>
+            </center>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+             <img src="./imgcar3.png" class="card-img-top" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">EL Amor de Dios</h5>
+              <p class="card-text"> EL amor es Dios es ifinito y misericordioso.</p>
+               
+            </div>
+            <center>
+              <div className="mb-3">
+                <button type="submit" className="btn btn-primary mb-3">Mas Informacion</button>
+              </div>
+            </center>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./imgcar2.png" class="card-img-top" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">Amando a Dios</h5>
+              <p class="card-text">El amar a Dios es lo mas lindo que podemos persivir en nuestras vidas.</p>
+              <center>
+                <div className="mb-3">
+                  <button type="submit" className="btn btn-primary mb-3">Mas Informacion</button>
+                </div>
+              </center>
+               
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img src="./imgcar4.png" class="card-img-top" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">Luz del Mundo</h5>
+              <p class="card-text">Dios es quien nos fortalese cada dia independiente de las pruebas que vamos viviendo.</p>
+              <center>
+                <div className="mb-3">
+                  <button type="submit" className="btn btn-primary mb-3">Mas Informacion</button>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
      
      
 

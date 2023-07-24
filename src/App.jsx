@@ -6,11 +6,13 @@ import Contacto from './componete/contacto';
 import Navbar from './componete/navbar';
 import Descrip from './componete/descrip';
 import { Route, Routes } from 'react-router-dom';
-import 'bootstrap/dist/js/bootstrap.bundle.min'
-import "bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useEffect } from 'react';
 
 
 function App() {
+
   return (
    <>
    <Navbar/>
@@ -23,11 +25,16 @@ function App() {
 
       </Routes>
     </div>
-  
+ 
+
 
 
    </>
   );
+  
+
+
+
 }
 
 export default App;
